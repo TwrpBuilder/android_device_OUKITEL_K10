@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_OUKITEL_K10
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
